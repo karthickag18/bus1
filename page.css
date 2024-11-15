@@ -1,0 +1,25 @@
+:root{
+    --backgroundcolor: white;
+    --color:black;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: var(--backgroundcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    font-size: 3cm;
+    margin-bottom: 3px;
+}
+
+p{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
